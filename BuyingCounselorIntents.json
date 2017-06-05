@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "NewQuestionnaire"
+    },
+    {
+      "slots": [
+        {
+          "name": "Ans",
+          "type": "Answer"
+        }
+      ],
+      "intent": "ContinueQuestionnaire"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

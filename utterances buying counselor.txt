@@ -1,0 +1,11 @@
+NewQuestionnaire Start new Questionnaire
+NewQuestionnaire new Questionnaire
+NewQuestionnaire new shopping Questionnaire
+NewQuestionnaire start new shopping Questionnaire
+NewQuestionnaire should I buy this
+NewQuestionnaire Start
+NewQuestionnaire New
+NewQuestionnaire Repeat
+NewQuestionnaire From the beginning
+NewQuestionnaire start from the beggining
+ContinueQuestionnaire {Ans}
