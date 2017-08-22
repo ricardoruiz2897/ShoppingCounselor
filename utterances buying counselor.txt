@@ -1,3 +1,8 @@
+AMAZON.CancelIntent cancel
+AMAZON.CancelIntent cancel this
+AMAZON.StopIntent stop
+AMAZON.StopIntent stop this
+ContinueQuestionnaire {Ans}
 NewQuestionnaire Start new Questionnaire
 NewQuestionnaire new Questionnaire
 NewQuestionnaire new shopping Questionnaire
@@ -8,4 +13,7 @@ NewQuestionnaire New
 NewQuestionnaire Repeat
 NewQuestionnaire From the beginning
 NewQuestionnaire start from the beggining
-ContinueQuestionnaire {Ans}
+NewQuestionnaire Repeat from the start
+NewQuestionnaire Repeat from the beginning
+NewQuestionnaire start from the beginning
+NewQuestionnaire give me shopping advice

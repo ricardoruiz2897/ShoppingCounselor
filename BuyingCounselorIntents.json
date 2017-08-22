@@ -1,7 +1,13 @@
 {
   "intents": [
     {
-      "intent": "NewQuestionnaire"
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
     },
     {
       "slots": [
@@ -13,7 +19,7 @@
       "intent": "ContinueQuestionnaire"
     },
     {
-      "intent": "AMAZON.HelpIntent"
+      "intent": "NewQuestionnaire"
     }
   ]
 }

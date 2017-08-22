@@ -1,10 +1,7 @@
-#######
-#Parts of this code were taken form 'ColorPickey.py' from examples from Amazon Alexa
-#######
-
 ##
 #Ricardo Ruiz
-#5/31/2017
+#Last Change made:
+#6/5/2017
 ##
 
 from __future__ import print_function
@@ -19,8 +16,8 @@ def build_speechlet_response(title, output, reprompt_text, should_end_session):
         },
         'card': {
             'type': 'Simple',
-            'title': "SessionSpeechlet - " + title,
-            'content': "SessionSpeechlet - " + output
+            'title': 'Shopping Counselor',
+            'content': output
         },
         'reprompt': {
             'outputSpeech': {
@@ -48,7 +45,7 @@ def get_welcome_response():
 
     session_attributes = {}
     card_title = "Welcome"
-    speech_output = "Welcome to the best shopping counselor. You will be prompted with some questions to determine if you should buy the article. Start by saying Start questionnaire."
+    speech_output = "Welcome to the best shopping counselor. You will be prompted with some questions to determine if you should buy an article or not. Start by saying Start questionnaire."
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
     reprompt_text = "Start the questionnaire by saying start"
@@ -59,7 +56,7 @@ def get_welcome_response():
 
 def handle_session_end_request():
     card_title = "Session Ended"
-    speech_output = "Thank you for using the shop conseulor. Goodbye "
+    speech_output = "Thank you for using my shopping counselor. Goodbye "
     # Setting this to true ends the session and exits the skill.
     should_end_session = True
     return build_response({}, build_speechlet_response(
